@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6BBD8E81D92771D007C123E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BBD8E71D92771D007C123E /* AppDelegate.swift */; };
+		C6BBD8EA1D92771D007C123E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BBD8E91D92771D007C123E /* ViewController.swift */; };
+		C6BBD8ED1D92771E007C123E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6BBD8EB1D92771E007C123E /* Main.storyboard */; };
+		C6BBD8EF1D92771E007C123E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6BBD8EE1D92771E007C123E /* Assets.xcassets */; };
+		C6BBD8F21D92771E007C123E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6BBD8F01D92771E007C123E /* LaunchScreen.storyboard */; };
+		C6BBD8FD1D92771E007C123E /* Skyshare_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BBD8FC1D92771E007C123E /* Skyshare_iosTests.swift */; };
+		C6BBD9081D92771E007C123E /* Skyshare_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BBD9071D92771E007C123E /* Skyshare_iosUITests.swift */; };
+		C6BBD9161D928730007C123E /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BBD9151D928730007C123E /* Mapbox.framework */; };
+		C6BBD9171D928730007C123E /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C6BBD9151D928730007C123E /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C6ED4A4C1D97AB6100C47BAD /* ListDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ED4A4B1D97AB6100C47BAD /* ListDetailsViewController.swift */; };
+		C6ED4A521D97B03300C47BAD /* ListDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ED4A511D97B03300C47BAD /* ListDetailsTableViewCell.swift */; };
+		C6ED4A541D97B4E800C47BAD /* Json.json in Resources */ = {isa = PBXBuildFile; fileRef = C6ED4A531D97B4E800C47BAD /* Json.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6BBD8F91D92771E007C123E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6BBD8DC1D92771D007C123E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6BBD8E31D92771D007C123E;
+			remoteInfo = Skyshare_ios;
+		};
+		C6BBD9041D92771E007C123E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6BBD8DC1D92771D007C123E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6BBD8E31D92771D007C123E;
+			remoteInfo = Skyshare_ios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C6BBD9181D928730007C123E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C6BBD9171D928730007C123E /* Mapbox.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C6BBD8E41D92771D007C123E /* Skyshare_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skyshare_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6BBD8E71D92771D007C123E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6BBD8E91D92771D007C123E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6BBD8EC1D92771E007C123E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6BBD8EE1D92771E007C123E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6BBD8F11D92771E007C123E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6BBD8F31D92771E007C123E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6BBD8F81D92771E007C123E /* Skyshare_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Skyshare_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6BBD8FC1D92771E007C123E /* Skyshare_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skyshare_iosTests.swift; sourceTree = "<group>"; };
+		C6BBD8FE1D92771E007C123E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6BBD9031D92771E007C123E /* Skyshare_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Skyshare_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6BBD9071D92771E007C123E /* Skyshare_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skyshare_iosUITests.swift; sourceTree = "<group>"; };
+		C6BBD9091D92771E007C123E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6BBD9151D928730007C123E /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
+		C6ED4A4B1D97AB6100C47BAD /* ListDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListDetailsViewController.swift; sourceTree = "<group>"; };
+		C6ED4A511D97B03300C47BAD /* ListDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		C6ED4A531D97B4E800C47BAD /* Json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Json.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6BBD8E11D92771D007C123E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6BBD9161D928730007C123E /* Mapbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6BBD8F51D92771E007C123E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6BBD9001D92771E007C123E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6BBD8DB1D92771D007C123E = {
+			isa = PBXGroup;
+			children = (
+				C6BBD9151D928730007C123E /* Mapbox.framework */,
+				C6BBD8E61D92771D007C123E /* Skyshare_ios */,
+				C6BBD8FB1D92771E007C123E /* Skyshare_iosTests */,
+				C6BBD9061D92771E007C123E /* Skyshare_iosUITests */,
+				C6BBD8E51D92771D007C123E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6BBD8E51D92771D007C123E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6BBD8E41D92771D007C123E /* Skyshare_ios.app */,
+				C6BBD8F81D92771E007C123E /* Skyshare_iosTests.xctest */,
+				C6BBD9031D92771E007C123E /* Skyshare_iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6BBD8E61D92771D007C123E /* Skyshare_ios */ = {
+			isa = PBXGroup;
+			children = (
+				C6ED4A531D97B4E800C47BAD /* Json.json */,
+				C6BBD8E71D92771D007C123E /* AppDelegate.swift */,
+				C6BBD8E91D92771D007C123E /* ViewController.swift */,
+				C6ED4A4B1D97AB6100C47BAD /* ListDetailsViewController.swift */,
+				C6ED4A511D97B03300C47BAD /* ListDetailsTableViewCell.swift */,
+				C6BBD8EB1D92771E007C123E /* Main.storyboard */,
+				C6BBD8EE1D92771E007C123E /* Assets.xcassets */,
+				C6BBD8F01D92771E007C123E /* LaunchScreen.storyboard */,
+				C6BBD8F31D92771E007C123E /* Info.plist */,
+			);
+			path = Skyshare_ios;
+			sourceTree = "<group>";
+		};
+		C6BBD8FB1D92771E007C123E /* Skyshare_iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6BBD8FC1D92771E007C123E /* Skyshare_iosTests.swift */,
+				C6BBD8FE1D92771E007C123E /* Info.plist */,
+			);
+			path = Skyshare_iosTests;
+			sourceTree = "<group>";
+		};
+		C6BBD9061D92771E007C123E /* Skyshare_iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6BBD9071D92771E007C123E /* Skyshare_iosUITests.swift */,
+				C6BBD9091D92771E007C123E /* Info.plist */,
+			);
+			path = Skyshare_iosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6BBD8E31D92771D007C123E /* Skyshare_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6BBD90C1D92771E007C123E /* Build configuration list for PBXNativeTarget "Skyshare_ios" */;
+			buildPhases = (
+				C6BBD8E01D92771D007C123E /* Sources */,
+				C6BBD8E11D92771D007C123E /* Frameworks */,
+				C6BBD8E21D92771D007C123E /* Resources */,
+				C6BBD9181D928730007C123E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skyshare_ios;
+			productName = Skyshare_ios;
+			productReference = C6BBD8E41D92771D007C123E /* Skyshare_ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6BBD8F71D92771E007C123E /* Skyshare_iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6BBD90F1D92771E007C123E /* Build configuration list for PBXNativeTarget "Skyshare_iosTests" */;
+			buildPhases = (
+				C6BBD8F41D92771E007C123E /* Sources */,
+				C6BBD8F51D92771E007C123E /* Frameworks */,
+				C6BBD8F61D92771E007C123E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6BBD8FA1D92771E007C123E /* PBXTargetDependency */,
+			);
+			name = Skyshare_iosTests;
+			productName = Skyshare_iosTests;
+			productReference = C6BBD8F81D92771E007C123E /* Skyshare_iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6BBD9021D92771E007C123E /* Skyshare_iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6BBD9121D92771E007C123E /* Build configuration list for PBXNativeTarget "Skyshare_iosUITests" */;
+			buildPhases = (
+				C6BBD8FF1D92771E007C123E /* Sources */,
+				C6BBD9001D92771E007C123E /* Frameworks */,
+				C6BBD9011D92771E007C123E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6BBD9051D92771E007C123E /* PBXTargetDependency */,
+			);
+			name = Skyshare_iosUITests;
+			productName = Skyshare_iosUITests;
+			productReference = C6BBD9031D92771E007C123E /* Skyshare_iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6BBD8DC1D92771D007C123E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Ranjitha;
+				TargetAttributes = {
+					C6BBD8E31D92771D007C123E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					C6BBD8F71D92771E007C123E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C6BBD8E31D92771D007C123E;
+					};
+					C6BBD9021D92771E007C123E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C6BBD8E31D92771D007C123E;
+					};
+				};
+			};
+			buildConfigurationList = C6BBD8DF1D92771D007C123E /* Build configuration list for PBXProject "Skyshare_ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6BBD8DB1D92771D007C123E;
+			productRefGroup = C6BBD8E51D92771D007C123E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6BBD8E31D92771D007C123E /* Skyshare_ios */,
+				C6BBD8F71D92771E007C123E /* Skyshare_iosTests */,
+				C6BBD9021D92771E007C123E /* Skyshare_iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6BBD8E21D92771D007C123E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6ED4A541D97B4E800C47BAD /* Json.json in Resources */,
+				C6BBD8F21D92771E007C123E /* LaunchScreen.storyboard in Resources */,
+				C6BBD8EF1D92771E007C123E /* Assets.xcassets in Resources */,
+				C6BBD8ED1D92771E007C123E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6BBD8F61D92771E007C123E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6BBD9011D92771E007C123E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6BBD8E01D92771D007C123E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6BBD8EA1D92771D007C123E /* ViewController.swift in Sources */,
+				C6ED4A521D97B03300C47BAD /* ListDetailsTableViewCell.swift in Sources */,
+				C6BBD8E81D92771D007C123E /* AppDelegate.swift in Sources */,
+				C6ED4A4C1D97AB6100C47BAD /* ListDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6BBD8F41D92771E007C123E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6BBD8FD1D92771E007C123E /* Skyshare_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6BBD8FF1D92771E007C123E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6BBD9081D92771E007C123E /* Skyshare_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6BBD8FA1D92771E007C123E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6BBD8E31D92771D007C123E /* Skyshare_ios */;
+			targetProxy = C6BBD8F91D92771E007C123E /* PBXContainerItemProxy */;
+		};
+		C6BBD9051D92771E007C123E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6BBD8E31D92771D007C123E /* Skyshare_ios */;
+			targetProxy = C6BBD9041D92771E007C123E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6BBD8EB1D92771E007C123E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6BBD8EC1D92771E007C123E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6BBD8F01D92771E007C123E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6BBD8F11D92771E007C123E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6BBD90A1D92771E007C123E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6BBD90B1D92771E007C123E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6BBD90D1D92771E007C123E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Skyshare_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ranjitha.Skyshare-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C6BBD90E1D92771E007C123E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Skyshare_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ranjitha.Skyshare-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C6BBD9101D92771E007C123E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Skyshare_iosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ranjitha.Skyshare-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skyshare_ios.app/Skyshare_ios";
+			};
+			name = Debug;
+		};
+		C6BBD9111D92771E007C123E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Skyshare_iosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ranjitha.Skyshare-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skyshare_ios.app/Skyshare_ios";
+			};
+			name = Release;
+		};
+		C6BBD9131D92771E007C123E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Skyshare_iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ranjitha.Skyshare-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Skyshare_ios;
+			};
+			name = Debug;
+		};
+		C6BBD9141D92771E007C123E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Skyshare_iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ranjitha.Skyshare-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Skyshare_ios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6BBD8DF1D92771D007C123E /* Build configuration list for PBXProject "Skyshare_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6BBD90A1D92771E007C123E /* Debug */,
+				C6BBD90B1D92771E007C123E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6BBD90C1D92771E007C123E /* Build configuration list for PBXNativeTarget "Skyshare_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6BBD90D1D92771E007C123E /* Debug */,
+				C6BBD90E1D92771E007C123E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6BBD90F1D92771E007C123E /* Build configuration list for PBXNativeTarget "Skyshare_iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6BBD9101D92771E007C123E /* Debug */,
+				C6BBD9111D92771E007C123E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6BBD9121D92771E007C123E /* Build configuration list for PBXNativeTarget "Skyshare_iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6BBD9131D92771E007C123E /* Debug */,
+				C6BBD9141D92771E007C123E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6BBD8DC1D92771D007C123E /* Project object */;
+}

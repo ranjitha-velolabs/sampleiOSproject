@@ -1,0 +1,50 @@
+{
+    "person":[
+              {
+              "description" : "Granger Bay",
+              "distance" : "578.0m",
+              "time" : "240sec",
+              "fleet name" : "Boston City Bikes",
+              "rate" : "4.50",
+              "rate currency" :"dollar-US",
+              "labelCount": "1"
+              },
+              {
+              "description" : "Addison Avenue",
+              "distance" : "650.0m",
+              "time" : "300sec",
+              "fleet name" : "Boston City Bikes",
+              "rate" : "5.50",
+              "rate currency" :"dollar-US",
+              "labelCount": "7"
+              },
+              {
+              "description" : "Euston Station",
+              "distance" : "850.0m",
+              "time" : "480sec",
+              "fleet name" : "Boston City Bikes",
+              "rate" : "4.50",
+              "rate currency" :"dollar-US",
+              "labelCount": "5"
+              },
+              {
+              "description" : "Euston Station",
+              "distance" : "650.0m",
+              "time" : "480sec",
+              "fleet name" : "Boston City Bikes",
+              "rate" : "5.50",
+              "rate currency" :"dollar-US",
+              "labelCount": "8"
+              },
+              {
+              "description" : "Addison Avenue",
+              "distance" : "650.0m",
+              "time" : "300sec",
+              "fleet name" : "Boston City Bikes",
+              "rate" : "5.50",
+              "rate currency" :"dollar-US",
+              "labelCount": "11"
+              }
+
+              ]
+}
